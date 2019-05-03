@@ -14,8 +14,7 @@
     <p style="font-size: 20px; color: white">Loading...</p>
   </ngx-spinner>
   <div class="row">
-    <!-- Team Member 1 -->
-    <div *ngFor="let video of videos" class="col-xl-3 col-md-6 mb-4">
+   <div *ngFor="let video of videos" class="col-xl-3 col-md-6 mb-4">
       <div class="card border-0 shadow vh-50">
         <a href="https://www.youtube.com/watch?v={{video.id.videoId}}" target="_blank">
           <img [src]="video.snippet.thumbnails.medium.url" class="card-img-top" alt="..."></a>
@@ -24,8 +23,7 @@
             <a href="https://www.youtube.com/watch?v={{video.id.videoId}}">{{video.snippet.title}}
             </a></h5>
           <div class="card-text text-black-50">{{video.snippet.description.slice(0, 100)}}</div>
-          <p class="card-text">{{video.snippet.description}}</p>
-        </div>
+         </div>
       </div>
     </div>
 
