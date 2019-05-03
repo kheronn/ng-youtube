@@ -4,7 +4,7 @@
 
 
 Para o funcionamento correto é neccesário informar uma key do YOUTUBE API em youtube.service.ts
-Baixe o arquivo e na pasta do projeto, execute no terminal
+Baixe o arquivo e na pasta do projeto, execute no terminal:
 `npm install`
 
 
